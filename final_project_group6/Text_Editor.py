@@ -28,3 +28,6 @@ class doubly_linked_list:
       while (node is not None):
          print(node.data),
          node = node.next
+         
+ characterList = doubly_linked_list(
+ val = input("Text Editor:\n") + input("")       
