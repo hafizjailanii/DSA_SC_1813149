@@ -29,8 +29,9 @@ class doubly_linked_list:
          print(node.data),
          node = node.next
          
- characterList = doubly_linked_list(
- val = input("Text Editor:\n") + input("")       
+characterList = doubly_linked_list(
+val = input("Text Editor:\n") + input("")
+    
 while input() != '':
     val += input('')
 
