@@ -1,11 +1,6 @@
-ahsduvgosfla
-sdasc
-as
-dca
-d
-as
-das
-das
-d
-asd
-
+#text editor
+class Node:
+   def _init_(self, data):
+      self.data = data
+      self.next = None
+      self.prev = None
