@@ -24,3 +24,8 @@ class doubly_linked_list:
       last.next = NewNode
       NewNode.prev = last
       return
+# Define the method to print the linked list 
+   def listprint(self, node):
+      while (node is not None):
+         print(node.data),
+         node = node.next
