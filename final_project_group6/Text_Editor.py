@@ -9,7 +9,6 @@ class doubly_linked_list:
    def __init__(self):
       self.head = None
 
-# Define the append method to add elements at the end
    def append(self, NewVal):
 
       NewNode = Node(NewVal)
@@ -21,10 +20,10 @@ class doubly_linked_list:
       last = self.head
       while (last.next is not None): 
          last = last.next
-      last.next = NewNode
-      NewNode.prev = last
-      return
-# Define the method to print the linked list 
+         last.next = NewNode
+         NewNode.prev = last
+         return
+
    def listprint(self, node):
       while (node is not None):
          print(node.data),
